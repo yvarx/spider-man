@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+header {
+  background-color: #de0606;
+  color: #e2e2e2;
+  padding: 15px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  background-color:#ac0202;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li:hover > a {
+    color: #cd7474;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+.home {
+  background-image: url('3 spidy.jpg'); 
+}
+
+.tobey {
+  background-image: url('tobey.jpeg'); 
+}
+
+.andrew {
+  background-image: url('andrew.jpg'); 
+}
+
+.tom {
+  background-image: url('tom.jpg'); 
+}
+
+.parallax h2 {
+  padding-top: 250px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.content {
+  padding: 35px;
+  background-color: #de0606;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #ac0202;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.75em;
+  position: relative;
+}
+
+footer p {
+  margin: 5px 0;
+}
